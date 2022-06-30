@@ -24,3 +24,11 @@ console.log(nombre)
 
 document.write('<p>Hola '+ nombre + '</p>');
 
+// ejemplo de constantes
+const url = 'https://campus.rollingcodeschool.com/'
+
+document.write(url);
+
+//modificar el contenido de una variable
+nombre = 'mauricio';
+document.write('<p>Hola '+ nombre + '</p>');
