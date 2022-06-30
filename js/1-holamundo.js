@@ -11,9 +11,16 @@ document.write('<h1>Hola comision 6i</h1>');
 console.log("prueba de consola");
 
 //mostrar un mensaje en una ventana emergente
-alert('desde una ventana emergente');
+// alert('desde una ventana emergente');
 
+// sumemos dos valor
+document.write('Resultado: '+ (12 + 5));
 
+document.write('<br>esto es un prueba');
 
+// para crear una variable selecciono (var - let - const)
+let nombre = prompt("Ingrese su nombre");
+console.log(nombre)
 
+document.write('<p>Hola '+ nombre + '</p>');
 
