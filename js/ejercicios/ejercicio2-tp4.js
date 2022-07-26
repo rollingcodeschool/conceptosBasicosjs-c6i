@@ -23,16 +23,10 @@ let cuenta = {
     },
     
 }
-
 cuenta.informar(cuenta);
 console.log(this)
-
 let deposito = parseFloat(prompt('Ingrese el monto deseado'));
 cuenta.ingresar(deposito);
-
 let retiro = parseFloat(prompt('Ingrese el monto a extraer'));
 cuenta.extraer(retiro);
-
 cuenta.informar();
-
-// cuenta.transferir();
