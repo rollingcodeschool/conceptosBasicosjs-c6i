@@ -6,7 +6,7 @@ let motorola = {
     SO:'Android',
     resitenteAgua: false,
     pantalla: 9,
-    // color: ['celeste','negro','plateado'],
+    color: ['celeste','negro','plateado'],
     // conectividad: {
     //     bluetooth: true,
     //     red: '4g'
@@ -42,4 +42,4 @@ console.log(motorola);
 // usar un metodo de un objeto
 motorola.navegar();
 
-
+document.write(`<p>Celular:${motorola.modelo} Color:${motorola.color[1]} </p>`)
